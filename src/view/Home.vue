@@ -7,12 +7,6 @@
     </ion-header>
 
     <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">Home</ion-title>
-        </ion-toolbar>
-      </ion-header>
-
       <div id="container">
         <strong>Ready to create an app?</strong>
         <p>
@@ -36,6 +30,9 @@ import {
   IonPage,
   IonTitle,
   IonToolbar,
+  IonMenuToggle,
+  IonButton,
+  IonMenu,
 } from "@ionic/vue";
 </script>
 
