@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { IonApp, IonRouterOutlet } from '@ionic/vue';
+import { IonApp, IonRouterOutlet } from "@ionic/vue";
 </script>
 
 <template>
@@ -8,6 +8,4 @@ import { IonApp, IonRouterOutlet } from '@ionic/vue';
   </ion-app>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

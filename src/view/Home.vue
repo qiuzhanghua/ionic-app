@@ -1,4 +1,3 @@
-
 <template>
   <ion-page>
     <ion-header :translucent="true">
@@ -18,8 +17,12 @@
         <strong>Ready to create an app?</strong>
         <p>
           Start with Ionic
-          <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components"
-          >UI Components</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://ionicframework.com/docs/components"
+            >UI Components</a
+          >
         </p>
       </div>
     </ion-content>
@@ -27,7 +30,13 @@
 </template>
 
 <script setup lang="ts">
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
+import {
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+} from "@ionic/vue";
 </script>
 
 <style scoped>

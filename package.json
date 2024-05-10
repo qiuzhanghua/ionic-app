@@ -6,20 +6,22 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "@ionic/vue": "^7.8.4",
-    "@ionic/vue-router": "^7.8.4",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "@ionic/vue": "^8.1.1",
+    "@ionic/vue-router": "^8.1.1",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "@types/node": "^20.12.7",
+    "@types/node": "^20.12.11",
     "@vitejs/plugin-vue": "^5.0.4",
-    "@vue/runtime-dom": "^3.4.23",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.0",
-    "vue-tsc": "^2.0.6"
+    "@vue/runtime-dom": "^3.4.27",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vue-tsc": "^2.0.16"
   }
 }
