@@ -30,9 +30,6 @@ import {
   IonPage,
   IonTitle,
   IonToolbar,
-  IonMenuToggle,
-  IonButton,
-  IonMenu,
 } from "@ionic/vue";
 </script>
 
